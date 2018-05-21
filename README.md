@@ -75,16 +75,17 @@ On Windows:
 
 Dependencies: MSVC 2013 or later, CMake 2.8.6 or later, and Boost 1.53 or later.
 
-- To build, change to the root of the source code directory, and run these commands:
+To build, change to the root of the source code directory, and run these commands:
 
 ``
-mkdir build
-cd build
-cmake -G "Visual Studio 12 Win64" -DBOOST_ROOT="c:\folder\to\boost_1_55_0" -DBOOST_LIBRARYDIR="c:\folder\to\boost_1_55_0\lib64-msvc-12.0"
-msbuild Project.sln /p:Configuration=Release
+	mkdir build
+	cd build
+	cmake -G "Visual Studio 12 Win64" -DBOOST_ROOT="c:\folder\to\boost_1_55_0"
+		-DBOOST_LIBRARYDIR="c:\folder\to\boost_1_55_0\lib64-msvc-12.0"
+	msbuild Project.sln /p:Configuration=Release
 ``
 
-- If you don't have your path environment variable configured with the VS paths, you may may want to run 'C:\program files (x86)\Microsoft Visual Studio 12.0\VC\vcvarsall.bat' (or equivalent) to temporarily set the environment variables.
+If you don't have your path environment variable configured with the VS paths, you may may want to run 'C:\program files (x86)\Microsoft Visual Studio 12.0\VC\vcvarsall.bat' (or equivalent) to temporarily set the environment variables.
 
 ----------------------
 Building Documentation
