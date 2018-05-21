@@ -2,7 +2,7 @@
 TEDCOIN
 -------
 
-Copyright (c) 2014-2018 TEDLab Sciences Ltd
+Copyright (c) 2014-2018 TedLab Sciences Ltd
 
 ---------------------
 Development Resources
@@ -28,7 +28,7 @@ Untraceability: By taking advantage of ring signatures, a special property of ce
 License
 -------
 
-Copyright (c) 2014-2018 TEDLab Sciences Ltd
+Copyright (c) 2014-2018 TedLab Sciences Ltd
 
 Parts of the project are originally copyright (c) 2012-2013 The Cryptonote developers
 
@@ -101,6 +101,6 @@ Dependencies: Doxygen 1.8.0 or later, Graphviz 2.28 or later (optional)
 
 License information:
 
-Copyright (c) 2014-2018 TEDLab Sciences Ltd
+Copyright (c) 2014-2018 TedLab Sciences Ltd
 
 All rights reserved.
