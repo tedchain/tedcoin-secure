@@ -11,7 +11,7 @@ namespace cryptonote
 #define BC_COMMANDS_POOL_BASE 2000
 
   /************************************************************************/
-  /* P2P connection info, serializable to json                            */
+  /* P2P connection info, serializable to json.                           */
   /************************************************************************/
   struct connection_info
   {
