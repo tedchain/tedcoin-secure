@@ -10,7 +10,7 @@
 namespace epee
 {
   /************************************************************************/
-  /* Serialize map declarations                                           */
+  /* Serialize map declarations.                                          */
   /************************************************************************/
 #define BEGIN_KV_SERIALIZE_MAP() \
 public: \
