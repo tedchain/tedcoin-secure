@@ -1,7 +1,7 @@
 use Math::BigInt only => 'GMP';
 use Digest::Keccak qw(keccak_256);
 
-my $p = Math::BigInt->new(2)->bpow(255)->bsub(19);		#F_p
+my $p = Math::BigInt->new(2)->bpow(255)->bsub(19);		#F_p.
 my $l = Math::BigInt->new(2)->bpow(252)->badd('27742317777372353535851937790883648493');
 #my $d = Math::BigInt->new(486662); 					#motgomery: y^2 = x^3 + 486662x^2 + x
 my $d = Math::BigInt->new(-121665)->bmul(minv(121666))->bmod($p); 	#twisted edwards: -x^2 +y^2 = 1 + d*x^2*y^2
