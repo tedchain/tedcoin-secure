@@ -1,5 +1,5 @@
 # $Id: Makefile,v 1.134 2016/10/07 09:04:36 nanard Exp $
-# MiniUPnP Project
+# MiniUPnP Project.
 # http://miniupnp.free.fr/
 # http://miniupnp.tuxfamily.org/
 # https://github.com/miniupnp/miniupnp
