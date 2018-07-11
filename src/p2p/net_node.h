@@ -51,7 +51,7 @@ namespace nodetool
 
   public:
     typedef t_payload_net_handler payload_net_handler;
-    // Some code
+    // Some code.
     node_server(t_payload_net_handler& payload_handler):m_payload_handler(payload_handler), m_allow_local_ip(false), m_hide_my_port(false), m_no_igd(false)
     {}
 
